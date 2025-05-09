@@ -1,0 +1,12 @@
+git init
+git status
+git add .
+git rm --cached
+git commit "new version" 
+git commit -m "new version"
+rm dev1
+git restore dev1
+git push origin master 
+git set-url origin 
+git remote -v
+git clone
